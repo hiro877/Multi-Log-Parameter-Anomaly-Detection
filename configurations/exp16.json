@@ -1,0 +1,16 @@
+{
+    "epochs": 50,
+    "batch_size": 256,
+    "learning_rate": 5e-5,
+    "tokenizer_dir": "vocab_size_10051",
+    "train_data_path": "dataset_train_with_anomaly_1000000_02",
+    "test_data_dir": "",
+    "param_state": "State",
+    "thre_AD": 0.05,
+    "saved_model_dir": "saved_models/exp16/anom=02",
+    "load_model_path": null,
+    "only_test": false,
+    "use_proposed_method": true,
+    "learn_positinal_info": true,
+    "is_analyzing": false
+}
