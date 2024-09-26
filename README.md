@@ -41,6 +41,14 @@ python visualize_attention.py --log_data_path datasets_for_models/test/param4/te
 
 This command takes the log data as input, processes it, and outputs the heatmap visualizations in the specified directory.
 
+### 3. Compatitive Unsupervised Models
+\`\`\`bash
+python compatitive_unsupervised_main.py  --model_type autoencoder --train_file train_data.txt --test_file test_data.txt --tokenizer_file path_to_tokenizer_file --batch_size 256
+python compatitive_unsupervised_main.py  --model_type vae --train_file train_data.txt --test_file test_data.txt --tokenizer_file path_to_tokenizer_file --batch_size 256
+python compatitive_unsupervised_main.py  --model_type oneclasssvm --train_file train_data.txt --test_file test_data.txt --tokenizer_file path_to_tokenizer_file --batch_size 256
+python compatitive_unsupervised_main.py  --model_type isolationforest --train_file train_data.txt --test_file test_data.txt --tokenizer_file path_to_tokenizer_file --batch_size 256
+\`\`\`
+
 ### Requirements
 
 - Python 3.x
